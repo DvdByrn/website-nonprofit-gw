@@ -1,7 +1,8 @@
 # Website for Nonprofit Groundwork Southcoast
 
-This website was developed as pro bono work completed for Groundwork Southcoast.
+This is a website that was developed as pro bono work completed for Groundwork Southcoast.
 
-![Screeshot](https://github.com/DvdByrn/website-nonprofit-gw/screenshot_GroundworkSouthCoast.png)
+The hosted website is located at: http://groundworksouthcoast.org/
 
-Current website now hosted at: http://groundworksouthcoast.org/
+![Screeshot of the website](https://github.com/DvdByrn/website-nonprofit-gw/blob/master/screenshot_GroundworkSouthCoast.png)
+
