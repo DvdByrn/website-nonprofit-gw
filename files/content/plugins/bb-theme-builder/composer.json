@@ -1,0 +1,6 @@
+{
+	"name": "s8satis/bb-theme-builder",
+	"description": "WordPress Responsive Menu plugin",
+	"license": "GPL-3.0",
+	"type": "wordpress-plugin"
+}

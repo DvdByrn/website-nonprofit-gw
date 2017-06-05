@@ -1,0 +1,6 @@
+{
+	"name": "s8satis/gravityformsmailchimp",
+	"description": "The Gravity Forms MailChimp Add-On gives you an easy way to integrate all of your online forms with the MailChimp email marketing service.",
+	"license": "GPL-3.0",
+	"type": "wordpress-plugin"
+}

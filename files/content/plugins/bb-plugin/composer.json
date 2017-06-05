@@ -1,0 +1,6 @@
+{
+	"name": "s8satis/bb-plugin",
+	"description": "The best drag and drop WordPress Page Builder. Easily build beautiful home pages, professional landing pages, and more with Beaver Builder.",
+	"license": "GPL-3.0",
+	"type": "wordpress-plugin"
+}

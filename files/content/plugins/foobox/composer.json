@@ -1,0 +1,7 @@
+{
+        "name": "s8satis/foobox",
+        "description": "The socially responsive media lightbox plugin for wordpress",
+        "license": "GPL-3.0",
+        "type": "wordpress-plugin"
+}
+

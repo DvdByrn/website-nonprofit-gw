@@ -1,0 +1,14 @@
+{
+    "name": "s8satis/wp-zipper",
+    "description": "A backup utility for WordPress.",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Marty Eason",
+            "email": "martye@sideways8.com"
+        }
+    ],
+    "require": {
+        "ifsnop/mysqldump-php": "2.*"
+    }
+}

@@ -1,0 +1,50 @@
+<?php
+/**
+ * WordPress configuration file.
+ */
+
+// Define your WordPress URL, ie, domain.com
+define( 'APP_DOMAIN', '' );
+
+if ( ! isset( $_SERVER['HTTP_HOST'] ) ) {
+	$_SERVER['HTTP_HOST'] = APP_DOMAIN;
+}
+
+define( 'DB_NAME', '{DB_NAME}' );
+define( 'DB_USER', '{DB_USER}' );
+define( 'DB_PASSWORD', '{DB_PASSWORD}' );
+define( 'DB_HOST', '{DB_HOST}' );
+define( 'DB_CHARSET', '{DB_CHARSET}' );
+define( 'DB_COLLATE', '{DB_COLLATE}' );
+
+$table_prefix = '{TABLE_PREFIX}';
+
+define( 'WP_DEBUG', false );
+define( 'WP_DEBUG_DISPLAY', false );
+define( 'WP_DEBUG_LOG', false );
+define( 'SCRIPT_DEBUG', false );
+
+define( 'AUTH_KEY', '{AUTH_KEY}' );
+define( 'SECURE_AUTH_KEY', '{SECURE_AUTH_KEY}' );
+define( 'LOGGED_IN_KEY', '{LOGGED_IN_KEY}' );
+define( 'NONCE_KEY', '{NONCE_KEY}' );
+define( 'AUTH_SALT', '{AUTH_SALT}' );
+define( 'SECURE_AUTH_SALT', '{SECURE_AUTH_SALT}' );
+define( 'LOGGED_IN_SALT', '{LOGGED_IN_SALT}');
+define( 'NONCE_SALT', '{NONCE_SALT}' );
+
+define( 'WP_HOME', 'http://' . APP_DOMAIN );
+define( 'WP_SITEURL', 'http://' . APP_DOMAIN . '/wp' );
+
+define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
+define( 'WP_CONTENT_URL', 'http://' . APP_DOMAIN . '/content' );
+
+/* That's all, stop editing! Happy blogging. */
+
+/** Absolute path to the WordPress directory. */
+if ( ! defined( 'ABSPATH' ) ) {
+	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
+}
+
+/** Sets up WordPress vars and included files. */
+require_once( ABSPATH . 'wp-settings.php' );

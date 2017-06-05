@@ -1,0 +1,6 @@
+{
+        "name": "s8satis/gravityformspaypalpaymentspro",
+        "description": "Enable users to make payments directly on your site without sending the user to PayPal to complete the transaction.",
+        "license": "GPL-3.0",
+        "type": "wordpress-plugin"
+}
