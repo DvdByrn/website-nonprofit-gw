@@ -1,4 +1,4 @@
-# Website for Nonprofit Groundwork Southcoast
+# Website for nonprofit Groundwork Southcoast
 
 This is a website that was developed as pro bono work completed for Groundwork Southcoast.
 
